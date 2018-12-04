@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{202:function(n,e,t){__NEXT_REGISTER_PAGE("/",function(){return n.exports=t(226),{page:n.exports.default}})},226:function(n,e,t){"use strict";t.r(e);var o=t(10),u=t.n(o);e.default=function(){return u.a.createElement("div",null,"Some additions: ",((n,e)=>n*e)(3,5))}}},[[202,1,0]]]);

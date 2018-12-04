@@ -6,8 +6,11 @@
   "author": "Pierre de la Martinière <pierre.de.la.martiniere@gmail.com>",
   "description": "Next.js plugin to transpile code from node_modules (supports TypeScript)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "bash ./__tests__/test.sh"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/martpie/next-plugin-transpile-modules.git"
@@ -25,6 +28,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "jest": "^23.6.0",
     "webpack": "^4.26.1"
   }
 }
